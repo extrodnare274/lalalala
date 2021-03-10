@@ -14,7 +14,7 @@ function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
-
+//rasengan vs chidori
 
     ground = new Ground(600,height,1200,20);
     platform = new Ground(150, 305, 300, 170);
@@ -62,3 +62,4 @@ function draw(){
     bird.display();
     platform.display();
 }
+
